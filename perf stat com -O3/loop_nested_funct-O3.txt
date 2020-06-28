@@ -1,0 +1,18 @@
+
+ Performance counter stats for './a.out':
+
+          2.977,27 msec task-clock                #    1,000 CPUs utilized          
+                 8      context-switches          #    0,003 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+                48      page-faults               #    0,016 K/sec                  
+     9.207.879.793      cycles                    #    3,093 GHz                    
+    25.004.056.433      instructions              #    2,72  insn per cycle         
+     5.000.351.199      branches                  # 1679,511 M/sec                  
+           178.152      branch-misses             #    0,00% of all branches        
+
+       2,977929816 seconds time elapsed
+
+       2,977473000 seconds user
+       0,000000000 seconds sys
+
+
