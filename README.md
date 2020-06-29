@@ -5,4 +5,4 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 
 ## O que foi feito até agora:
 * Tabela com info do CPU
-* Foram executados os códigos com e sem -O3 no perf, mas falta colocar esses dados na tabela
+* Foram executados os códigos com e sem -O3 no perf e foram colocados na tabela
