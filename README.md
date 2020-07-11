@@ -14,5 +14,5 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
     * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) - OK
     * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) - OK
     * Programação Inteira ou Otimização com A*
-    * Ordenação
+    * Ordenação (ordenando os arquivos de texto com sort do c++) ----------- Ok
 * Etapa 3 - Em andamento
