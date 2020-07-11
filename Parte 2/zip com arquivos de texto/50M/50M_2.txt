@@ -1,0 +1,19 @@
+updating: 50MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 50M.zip 50MB.txt':
+
+          3.095,06 msec task-clock                #    1,000 CPUs utilized          
+                13      context-switches          #    0,004 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               154      page-faults               #    0,050 K/sec                  
+     9.572.238.175      cycles                    #    3,093 GHz                    
+     9.959.347.597      instructions              #    1,04  insn per cycle         
+     2.151.551.852      branches                  #  695,156 M/sec                  
+        95.211.128      branch-misses             #    4,43% of all branches        
+
+       3,095940612 seconds time elapsed
+
+       3,079306000 seconds user
+       0,015996000 seconds sys
+
+

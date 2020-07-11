@@ -1,0 +1,19 @@
+updating: 100MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 100M.zip 100MB.txt':
+
+          7.135,74 msec task-clock                #    0,999 CPUs utilized          
+                32      context-switches          #    0,004 K/sec                  
+                 1      cpu-migrations            #    0,000 K/sec                  
+               155      page-faults               #    0,022 K/sec                  
+    22.069.201.844      cycles                    #    3,093 GHz                    
+    19.942.261.993      instructions              #    0,90  insn per cycle         
+     4.306.879.774      branches                  #  603,564 M/sec                  
+       181.606.290      branch-misses             #    4,22% of all branches        
+
+       7,140310971 seconds time elapsed
+
+       7,085869000 seconds user
+       0,052013000 seconds sys
+
+

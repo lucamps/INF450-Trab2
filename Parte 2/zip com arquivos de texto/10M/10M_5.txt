@@ -1,0 +1,19 @@
+updating: 10MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 10M.zip 10MB.txt':
+
+          1.215,87 msec task-clock                #    0,997 CPUs utilized          
+                11      context-switches          #    0,009 K/sec                  
+                 1      cpu-migrations            #    0,001 K/sec                  
+               155      page-faults               #    0,127 K/sec                  
+     3.760.466.857      cycles                    #    3,093 GHz                    
+     2.006.627.200      instructions              #    0,53  insn per cycle         
+       433.208.428      branches                  #  356,294 M/sec                  
+        18.320.887      branch-misses             #    4,23% of all branches        
+
+       1,219332478 seconds time elapsed
+
+       1,197733000 seconds user
+       0,019962000 seconds sys
+
+

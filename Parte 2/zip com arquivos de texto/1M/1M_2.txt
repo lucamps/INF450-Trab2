@@ -1,0 +1,19 @@
+updating: 1MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 1M.zip 1MB.txt':
+
+            676,87 msec task-clock                #    0,996 CPUs utilized          
+                13      context-switches          #    0,019 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               156      page-faults               #    0,230 K/sec                  
+     2.093.264.319      cycles                    #    3,093 GHz                    
+       215.308.761      instructions              #    0,10  insn per cycle         
+        46.229.121      branches                  #   68,298 M/sec                  
+         2.003.601      branch-misses             #    4,33% of all branches        
+
+       0,679761914 seconds time elapsed
+
+       0,658070000 seconds user
+       0,019941000 seconds sys
+
+
