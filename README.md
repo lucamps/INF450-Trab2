@@ -9,9 +9,9 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 * Etapa 1 - OK
 * Etapa 2 - Em andamento
   * Rodando os programas com perf:
-    * Compactação (zip) - OK
+    * Compactação (txt com zip) -------------------------------------------- OK
     * Compilador
-    * Processamento de audio
+    * Processamento de audio (conversão mp3 para wav com o comando ffmpeg)-- OK
     * Processamento de vídeo
     * Programação Inteira ou Otimização com A*
     * Ordenação
