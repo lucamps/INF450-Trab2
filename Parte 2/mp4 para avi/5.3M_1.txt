@@ -1,0 +1,69 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '5.3MB.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-03-08T11:42:07.000000Z
+  Duration: 00:00:26.40, start: 0.000000, bitrate: 1607 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1478 kb/s, 25 fps, 25 tbr, 90k tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, avi, to '5.3MB.avi':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    ISFT            : Lavf57.83.100
+    Stream #0:0(und): Video: mpeg4 (FMP4 / 0x34504D46), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+      encoder         : Lavc57.107.100 mpeg4
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 44100 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   34 fps=0.0 q=31.0 size=     266kB time=00:00:01.36 bitrate=1600.8kbits/s speed=2.51x    frame=  134 fps=128 q=31.0 size=     522kB time=00:00:05.36 bitrate= 797.4kbits/s speed=5.13x    frame=  162 fps=105 q=31.0 size=     522kB time=00:00:06.48 bitrate= 659.6kbits/s speed=4.19x    frame=  187 fps= 91 q=31.0 size=     778kB time=00:00:07.48 bitrate= 851.8kbits/s speed=3.65x    frame=  211 fps= 83 q=24.8 size=     778kB time=00:00:08.44 bitrate= 754.9kbits/s speed= 3.3x    frame=  239 fps= 78 q=31.0 size=     778kB time=00:00:09.56 bitrate= 666.5kbits/s speed=3.13x    frame=  268 fps= 75 q=31.0 size=    1034kB time=00:00:10.72 bitrate= 790.0kbits/s speed=3.01x    frame=  292 fps= 72 q=31.0 size=    1034kB time=00:00:11.68 bitrate= 725.0kbits/s speed=2.87x    frame=  319 fps= 70 q=24.8 size=    1034kB time=00:00:12.76 bitrate= 663.7kbits/s speed=2.79x    frame=  347 fps= 68 q=31.0 size=    1290kB time=00:00:13.88 bitrate= 761.2kbits/s speed=2.73x    frame=  373 fps= 67 q=24.8 size=    1290kB time=00:00:14.92 bitrate= 708.2kbits/s speed=2.67x    frame=  397 fps= 65 q=24.8 size=    1290kB time=00:00:15.88 bitrate= 665.3kbits/s speed=2.61x    frame=  422 fps= 64 q=31.0 size=    1546kB time=00:00:16.88 bitrate= 750.2kbits/s speed=2.56x    frame=  449 fps= 63 q=31.0 size=    1546kB time=00:00:17.96 bitrate= 705.1kbits/s speed=2.53x    frame=  475 fps= 63 q=24.8 size=    1802kB time=00:00:19.00 bitrate= 776.8kbits/s speed= 2.5x    frame=  497 fps= 61 q=31.0 size=    1802kB time=00:00:19.88 bitrate= 742.5kbits/s speed=2.45x    frame=  523 fps= 61 q=24.8 size=    1802kB time=00:00:20.92 bitrate= 705.5kbits/s speed=2.43x    frame=  547 fps= 60 q=31.0 size=    2058kB time=00:00:21.88 bitrate= 770.4kbits/s speed= 2.4x    frame=  571 fps= 59 q=31.0 size=    2058kB time=00:00:22.84 bitrate= 738.1kbits/s speed=2.38x    frame=  593 fps= 59 q=31.0 size=    2058kB time=00:00:23.72 bitrate= 710.7kbits/s speed=2.34x    frame=  620 fps= 58 q=31.0 size=    2314kB time=00:00:24.80 bitrate= 764.3kbits/s speed=2.33x    frame=  649 fps= 58 q=31.0 size=    2314kB time=00:00:25.96 bitrate= 730.1kbits/s speed=2.33x    frame=  660 fps= 58 q=31.0 Lsize=    2536kB time=00:00:26.40 bitrate= 786.6kbits/s speed=2.32x    
+video:2073kB audio:413kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.985248%
+
+ Performance counter stats for 'ffmpeg -i 5.3MB.mp4 5.3MB.avi':
+
+         15.665,52 msec task-clock                #    1,359 CPUs utilized          
+             9.684      context-switches          #    0,618 K/sec                  
+               898      cpu-migrations            #    0,057 K/sec                  
+            16.699      page-faults               #    0,001 M/sec                  
+    48.414.878.568      cycles                    #    3,091 GHz                    
+    29.431.693.023      instructions              #    0,61  insn per cycle         
+     2.838.861.866      branches                  #  181,217 M/sec                  
+        62.215.359      branch-misses             #    2,19% of all branches        
+
+      11,527983511 seconds time elapsed
+
+      15,463447000 seconds user
+       0,267713000 seconds sys
+
+

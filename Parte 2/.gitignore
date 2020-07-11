@@ -1,2 +1,7 @@
-#Ignorando arquivos mp3
+#Ignorando arquivos grandes
 *.mp3
+*.mp4
+*.avi
+*.wav
+
+*.cpp

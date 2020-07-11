@@ -11,8 +11,8 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
   * Rodando os programas com perf:
     * Compactação (txt com zip) -------------------------------------------- OK
     * Compilador
-    * Processamento de audio (conversão mp3 para wav com o comando ffmpeg)-- OK
-    * Processamento de vídeo
+    * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) - OK
+    * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) - OK
     * Programação Inteira ou Otimização com A*
     * Ordenação
 * Etapa 3 - Em andamento

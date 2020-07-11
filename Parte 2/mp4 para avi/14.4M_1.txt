@@ -1,0 +1,69 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '14.4MB.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2018-09-09T21:29:41.000000Z
+  Duration: 00:03:41.43, start: 0.000000, bitrate: 521 kb/s
+    Stream #0:0(und): Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p(tv, bt709), 640x320 [SAR 1:1 DAR 2:1], 423 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2018-09-09T21:29:41.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/09/2018.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 95 kb/s (default)
+    Metadata:
+      creation_time   : 2018-09-09T21:29:41.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/09/2018.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, avi, to '14.4MB.avi':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    ISFT            : Lavf57.83.100
+    Stream #0:0(und): Video: mpeg4 (FMP4 / 0x34504D46), yuv420p(progressive), 640x320 [SAR 1:1 DAR 2:1], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2018-09-09T21:29:41.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/09/2018.
+      encoder         : Lavc57.107.100 mpeg4
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 44100 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2018-09-09T21:29:41.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 09/09/2018.
+      encoder         : Lavc57.107.100 libmp3lame
+frame=  128 fps=0.0 q=7.6 size=     266kB time=00:00:05.12 bitrate= 425.2kbits/s speed=10.2x    frame=  171 fps=170 q=9.5 size=     266kB time=00:00:06.84 bitrate= 318.3kbits/s speed=6.82x    frame=  200 fps=133 q=9.9 size=     266kB time=00:00:08.00 bitrate= 272.1kbits/s speed=5.31x    frame=  234 fps=117 q=11.7 size=     266kB time=00:00:09.36 bitrate= 232.6kbits/s speed=4.66x    frame=  281 fps=112 q=11.0 size=     522kB time=00:00:11.24 bitrate= 380.3kbits/s speed=4.48x    frame=  327 fps=108 q=8.1 size=     522kB time=00:00:13.08 bitrate= 326.8kbits/s speed=4.34x    frame=  369 fps=105 q=9.5 size=     522kB time=00:00:14.76 bitrate= 289.6kbits/s speed= 4.2x    frame=  409 fps=102 q=9.6 size=     778kB time=00:00:16.36 bitrate= 389.5kbits/s speed=4.07x    frame=  455 fps=101 q=8.8 size=     778kB time=00:00:18.20 bitrate= 350.1kbits/s speed=4.03x    frame=  497 fps= 99 q=11.0 size=     778kB time=00:00:19.88 bitrate= 320.5kbits/s speed=3.96x    frame=  536 fps= 97 q=11.4 size=    1034kB time=00:00:21.44 bitrate= 395.0kbits/s speed=3.88x    frame=  574 fps= 95 q=13.7 size=    1034kB time=00:00:22.96 bitrate= 368.8kbits/s speed=3.81x    frame=  665 fps=102 q=8.7 size=    1034kB time=00:00:26.60 bitrate= 318.4kbits/s speed=4.07x    frame=  710 fps=101 q=10.0 size=    1290kB time=00:00:28.40 bitrate= 372.0kbits/s speed=4.04x    frame=  838 fps=111 q=10.2 size=    1290kB time=00:00:33.52 bitrate= 315.2kbits/s speed=4.45x    frame= 1013 fps=126 q=12.6 size=    1802kB time=00:00:40.52 bitrate= 364.3kbits/s speed=5.04x    frame= 1157 fps=136 q=10.5 size=    2058kB time=00:00:46.28 bitrate= 364.2kbits/s speed=5.42x    frame= 1245 fps=138 q=11.3 size=    2058kB time=00:00:49.80 bitrate= 338.5kbits/s speed=5.51x    frame= 1279 fps=134 q=16.3 size=    2058kB time=00:00:51.16 bitrate= 329.5kbits/s speed=5.36x    frame= 1395 fps=139 q=20.7 size=    2314kB time=00:00:55.80 bitrate= 339.7kbits/s speed=5.56x    frame= 1491 fps=141 q=22.0 size=    2570kB time=00:00:59.64 bitrate= 353.0kbits/s speed=5.65x    frame= 1654 fps=150 q=27.5 size=    2826kB time=00:01:06.16 bitrate= 349.9kbits/s speed=5.99x    frame= 1800 fps=156 q=31.0 size=    3082kB time=00:01:12.00 bitrate= 350.6kbits/s speed=6.23x    frame= 1872 fps=155 q=31.0 size=    3082kB time=00:01:14.88 bitrate= 337.1kbits/s speed=6.21x    frame= 1907 fps=152 q=31.0 size=    3338kB time=00:01:16.28 bitrate= 358.5kbits/s speed=6.08x    frame= 1943 fps=149 q=31.0 size=    3338kB time=00:01:17.72 bitrate= 351.8kbits/s speed=5.95x    frame= 1979 fps=146 q=31.0 size=    3338kB time=00:01:19.16 bitrate= 345.4kbits/s speed=5.84x    frame= 2023 fps=144 q=30.8 size=    3338kB time=00:01:20.92 bitrate= 337.9kbits/s speed=5.76x    frame= 2115 fps=145 q=23.0 size=    3594kB time=00:01:24.60 bitrate= 348.0kbits/s speed=5.81x    frame= 2249 fps=149 q=31.0 size=    3850kB time=00:01:29.96 bitrate= 350.6kbits/s speed=5.97x    frame= 2289 fps=147 q=31.0 size=    3850kB time=00:01:31.56 bitrate= 344.4kbits/s speed=5.88x    frame= 2325 fps=145 q=31.0 size=    3850kB time=00:01:33.00 bitrate= 339.1kbits/s speed=5.79x    frame= 2358 fps=142 q=31.0 size=    4106kB time=00:01:34.32 bitrate= 356.6kbits/s speed=5.69x    frame= 2394 fps=140 q=31.0 size=    4106kB time=00:01:35.76 bitrate= 351.2kbits/s speed=5.61x    frame= 2429 fps=138 q=31.0 size=    4106kB time=00:01:37.16 bitrate= 346.2kbits/s speed=5.53x    frame= 2520 fps=139 q=24.8 size=    4362kB time=00:01:40.80 bitrate= 354.5kbits/s speed=5.58x    frame= 2615 fps=141 q=31.0 size=    4362kB time=00:01:44.60 bitrate= 341.6kbits/s speed=5.63x    frame= 2648 fps=139 q=31.0 size=    4618kB time=00:01:45.92 bitrate= 357.1kbits/s speed=5.55x    frame= 2685 fps=137 q=31.0 size=    4618kB time=00:01:47.40 bitrate= 352.2kbits/s speed=5.48x    frame= 2724 fps=136 q=31.0 size=    4618kB time=00:01:48.96 bitrate= 347.2kbits/s speed=5.42x    frame= 2759 fps=134 q=24.8 size=    4618kB time=00:01:50.36 bitrate= 342.8kbits/s speed=5.36x    frame= 2926 fps=139 q=31.0 size=    4874kB time=00:01:57.04 bitrate= 341.1kbits/s speed=5.55x    frame= 3066 fps=142 q=31.0 size=    5130kB time=00:02:02.64 bitrate= 342.7kbits/s speed=5.68x    frame= 3102 fps=140 q=31.0 size=    5130kB time=00:02:04.08 bitrate= 338.7kbits/s speed=5.62x    frame= 3136 fps=139 q=31.0 size=    5386kB time=00:02:05.44 bitrate= 351.7kbits/s speed=5.55x    frame= 3172 fps=137 q=24.6 size=    5386kB time=00:02:06.88 bitrate= 347.7kbits/s speed=5.49x    frame= 3218 fps=136 q=17.3 size=    5386kB time=00:02:08.72 bitrate= 342.8kbits/s speed=5.45x    frame= 3289 fps=136 q=21.3 size=    5386kB time=00:02:11.56 bitrate= 335.4kbits/s speed=5.46x    frame= 3474 fps=141 q=16.0 size=    5642kB time=00:02:18.96 bitrate= 332.6kbits/s speed=5.65x    frame= 3685 fps=147 q=9.8 size=    6154kB time=00:02:27.40 bitrate= 342.0kbits/s speed=5.87x    frame= 3791 fps=148 q=7.2 size=    6154kB time=00:02:31.64 bitrate= 332.4kbits/s speed=5.92x    frame= 3820 fps=146 q=7.4 size=    6154kB time=00:02:32.80 bitrate= 329.9kbits/s speed=5.85x    frame= 3846 fps=145 q=6.7 size=    6154kB time=00:02:33.84 bitrate= 327.7kbits/s speed=5.78x    frame= 3938 fps=145 q=6.9 size=    6410kB time=00:02:37.52 bitrate= 333.3kbits/s speed=5.81x    frame= 3973 fps=144 q=8.5 size=    6410kB time=00:02:38.92 bitrate= 330.4kbits/s speed=5.75x    frame= 4007 fps=143 q=6.4 size=    6410kB time=00:02:40.28 bitrate= 327.6kbits/s speed= 5.7x    frame= 4043 fps=141 q=7.4 size=    6410kB time=00:02:41.72 bitrate= 324.7kbits/s speed=5.65x    frame= 4088 fps=140 q=7.5 size=    6666kB time=00:02:43.52 bitrate= 333.9kbits/s speed=5.61x    frame= 4124 fps=139 q=7.8 size=    6666kB time=00:02:44.96 bitrate= 331.0kbits/s speed=5.57x    frame= 4159 fps=138 q=7.8 size=    6666kB time=00:02:46.36 bitrate= 328.2kbits/s speed=5.52x    frame= 4202 fps=137 q=8.2 size=    6666kB time=00:02:48.08 bitrate= 324.9kbits/s speed=5.49x    frame= 4241 fps=136 q=6.0 size=    6922kB time=00:02:49.64 bitrate= 334.3kbits/s speed=5.45x    frame= 4274 fps=135 q=4.4 size=    6922kB time=00:02:50.96 bitrate= 331.7kbits/s speed= 5.4x    frame= 4309 fps=134 q=6.3 size=    6922kB time=00:02:52.36 bitrate= 329.0kbits/s speed=5.36x    frame= 4345 fps=133 q=4.6 size=    6922kB time=00:02:53.80 bitrate= 326.3kbits/s speed=5.32x    frame= 4471 fps=135 q=3.6 size=    7178kB time=00:02:58.84 bitrate= 328.8kbits/s speed=5.39x    frame= 4507 fps=134 q=3.1 size=    7178kB time=00:03:00.28 bitrate= 326.2kbits/s speed=5.36x    frame= 4542 fps=133 q=12.3 size=    7178kB time=00:03:01.68 bitrate= 323.6kbits/s speed=5.32x    frame= 4576 fps=132 q=11.5 size=    7434kB time=00:03:03.04 bitrate= 332.7kbits/s speed=5.28x    frame= 4612 fps=131 q=12.4 size=    7434kB time=00:03:04.48 bitrate= 330.1kbits/s speed=5.25x    frame= 4646 fps=130 q=12.3 size=    7434kB time=00:03:05.84 bitrate= 327.7kbits/s speed=5.21x    frame= 4681 fps=129 q=10.3 size=    7434kB time=00:03:07.24 bitrate= 325.2kbits/s speed=5.17x    frame= 4717 fps=129 q=10.4 size=    7690kB time=00:03:08.68 bitrate= 333.9kbits/s speed=5.14x    frame= 4750 fps=128 q=13.2 size=    7690kB time=00:03:10.00 bitrate= 331.6kbits/s speed=5.11x    frame= 4787 fps=127 q=13.0 size=    7690kB time=00:03:11.48 bitrate= 329.0kbits/s speed=5.08x    frame= 4826 fps=126 q=13.9 size=    7946kB time=00:03:13.04 bitrate= 337.2kbits/s speed=5.05x    frame= 4866 fps=126 q=19.5 size=    7946kB time=00:03:14.64 bitrate= 334.4kbits/s speed=5.03x    frame= 4902 fps=125 q=23.4 size=    7946kB time=00:03:16.08 bitrate= 332.0kbits/s speed=   5x    frame= 4937 fps=124 q=27.8 size=    7946kB time=00:03:17.48 bitrate= 329.6kbits/s speed=4.97x    frame= 4982 fps=124 q=17.4 size=    8202kB time=00:03:19.28 bitrate= 337.2kbits/s speed=4.96x    frame= 5018 fps=123 q=18.1 size=    8202kB time=00:03:20.72 bitrate= 334.7kbits/s speed=4.93x    frame= 5058 fps=123 q=20.2 size=    8202kB time=00:03:22.32 bitrate= 332.1kbits/s speed=4.91x    frame= 5099 fps=122 q=22.8 size=    8202kB time=00:03:23.96 bitrate= 329.4kbits/s speed=4.89x    frame= 5193 fps=123 q=2.9 size=    8458kB time=00:03:27.72 bitrate= 333.6kbits/s speed=4.92x    frame= 5245 fps=123 q=2.5 size=    8458kB time=00:03:29.80 bitrate= 330.2kbits/s speed=4.91x    frame= 5482 fps=127 q=3.1 size=    8714kB time=00:03:39.28 bitrate= 325.5kbits/s speed=5.07x    frame= 5534 fps=127 q=2.0 Lsize=    9213kB time=00:03:41.44 bitrate= 340.8kbits/s speed=5.07x    
+video:5411kB audio:3460kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.846752%
+
+ Performance counter stats for 'ffmpeg -i 14.4MB.mp4 14.4MB.avi':
+
+         51.664,60 msec task-clock                #    1,181 CPUs utilized          
+            88.741      context-switches          #    0,002 M/sec                  
+             7.995      cpu-migrations            #    0,155 K/sec                  
+             7.792      page-faults               #    0,151 K/sec                  
+   159.525.114.455      cycles                    #    3,088 GHz                    
+    82.853.794.819      instructions              #    0,52  insn per cycle         
+     8.308.463.353      branches                  #  160,815 M/sec                  
+       231.897.071      branch-misses             #    2,79% of all branches        
+
+      43,738473706 seconds time elapsed
+
+      50,651346000 seconds user
+       1,619159000 seconds sys
+
+
