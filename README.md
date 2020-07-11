@@ -8,4 +8,11 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 ### Status:
 * Etapa 1 - OK
 * Etapa 2 - Em andamento
+  * Rodando os programas com perf:
+    * Compactação (zip) - OK
+    * Compilador
+    * Processamento de audio
+    * Processamento de vídeo
+    * Programação Inteira ou Otimização com A*
+    * Ordenação
 * Etapa 3 - Em andamento
