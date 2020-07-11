@@ -1,0 +1,60 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mp3, from '171.5MB.mp3':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=P3sVQc5v_1M
+    comment         : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    description     : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    artist          : Annynha FF
+    title           : MELHORES MSICAS SEM DIREITOS AUTORAIS NO COPYRIGHT PARA RODAR EM SUAS LIVES E SEUS VDEOS
+    date            : 20200112
+    encoder         : Lavf57.56.101
+  Duration: 01:32:56.93, start: 0.023021, bitrate: 246 kb/s
+    Stream #0:0: Audio: mp3, 48000 Hz, stereo, s16p, 246 kb/s
+    Metadata:
+      encoder         : Lavc57.64
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '171.5MB.wav':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=P3sVQc5v_1M
+    ICMT            : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    description     : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    IART            : Annynha FF
+    INAM            : MELHORES MSICAS SEM DIREITOS AUTORAIS NO COPYRIGHT PARA RODAR EM SUAS LIVES E SEUS VDEOS
+    ICRD            : 20200112
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc57.107.100 pcm_s16le
+size=   30208kB time=00:02:42.07 bitrate=1526.9kbits/s speed= 324x    size=   64256kB time=00:05:42.74 bitrate=1535.8kbits/s speed= 343x    size=   97280kB time=00:08:39.09 bitrate=1535.2kbits/s speed= 346x    size=  123392kB time=00:10:59.08 bitrate=1533.7kbits/s speed= 330x    size=  145408kB time=00:12:56.66 bitrate=1533.7kbits/s speed= 311x    size=  169216kB time=00:15:02.90 bitrate=1535.3kbits/s speed= 301x    size=  196352kB time=00:17:28.51 bitrate=1534.1kbits/s speed= 300x    size=  224768kB time=00:20:00.02 bitrate=1534.4kbits/s speed= 300x    size=  259584kB time=00:23:05.18 bitrate=1535.2kbits/s speed= 308x    size=  292352kB time=00:26:00.55 bitrate=1534.7kbits/s speed= 312x    size=  330240kB time=00:29:21.91 bitrate=1535.4kbits/s speed= 320x    size=  365312kB time=00:32:29.23 bitrate=1535.3kbits/s speed= 325x    size=  402944kB time=00:35:49.36 bitrate=1535.8kbits/s speed= 331x    size=  428800kB time=00:38:07.15 bitrate=1535.9kbits/s speed= 327x    size=  447488kB time=00:39:46.77 bitrate=1535.9kbits/s speed= 318x    size=  469504kB time=00:41:45.02 bitrate=1535.4kbits/s speed= 313x    size=  497920kB time=00:44:16.41 bitrate=1535.5kbits/s speed= 312x    size=  534784kB time=00:47:32.18 bitrate=1536.0kbits/s speed= 317x    size=  564992kB time=00:50:13.60 bitrate=1535.8kbits/s speed= 317x    size=  594176kB time=00:52:48.98 bitrate=1536.0kbits/s speed= 317x    size=  629760kB time=00:55:59.16 bitrate=1535.8kbits/s speed= 320x    size=  666368kB time=00:59:14.83 bitrate=1535.6kbits/s speed= 323x    size=  697856kB time=01:02:02.18 bitrate=1535.9kbits/s speed= 324x    size=  721152kB time=01:04:06.16 bitrate=1536.0kbits/s speed= 320x    size=  754176kB time=01:07:03.38 bitrate=1535.6kbits/s speed= 322x    size=  782080kB time=01:09:31.94 bitrate=1535.7kbits/s speed= 321x    size=  809472kB time=01:11:57.79 bitrate=1535.8kbits/s speed= 320x    size=  846080kB time=01:15:13.63 bitrate=1535.6kbits/s speed= 322x    size=  882944kB time=01:18:29.90 bitrate=1535.7kbits/s speed= 325x    size=  915712kB time=01:21:24.81 bitrate=1535.7kbits/s speed= 326x    size=  953600kB time=01:24:46.94 bitrate=1535.7kbits/s speed= 328x    size=  991744kB time=01:28:10.10 bitrate=1535.8kbits/s speed= 331x    size= 1027072kB time=01:31:17.78 bitrate=1536.0kbits/s speed= 332x    size= 1045668kB time=01:32:56.89 bitrate=1536.0kbits/s speed= 332x    
+video:0kB audio:1045668kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000036%
+
+ Performance counter stats for 'ffmpeg -i 171.5MB.mp3 171.5MB.wav':
+
+         16.314,46 msec task-clock                #    0,967 CPUs utilized          
+             1.207      context-switches          #    0,074 K/sec                  
+                12      cpu-migrations            #    0,001 K/sec                  
+             3.748      page-faults               #    0,230 K/sec                  
+    50.440.873.785      cycles                    #    3,092 GHz                    
+   107.946.355.177      instructions              #    2,14  insn per cycle         
+     6.149.887.725      branches                  #  376,959 M/sec                  
+       149.564.388      branch-misses             #    2,43% of all branches        
+
+      16,873863209 seconds time elapsed
+
+      15,507557000 seconds user
+       0,806520000 seconds sys
+
+

@@ -1,0 +1,60 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mp3, from '15.3MB.mp3':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=smZbpBsny9c
+    comment         : Boa noite a quem assiste, espero que gostem da musica!
+    description     : Boa noite a quem assiste, espero que gostem da musica!
+    artist          : Wudson Beasin
+    title           : 10 Minutos de Musica Relaxante.
+    date            : 20160810
+    encoder         : Lavf57.56.101
+  Duration: 00:10:00.46, start: 0.023021, bitrate: 203 kb/s
+    Stream #0:0: Audio: mp3, 48000 Hz, stereo, s16p, 203 kb/s
+    Metadata:
+      encoder         : Lavc57.64
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '15.3MB.wav':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=smZbpBsny9c
+    ICMT            : Boa noite a quem assiste, espero que gostem da musica!
+    description     : Boa noite a quem assiste, espero que gostem da musica!
+    IART            : Wudson Beasin
+    INAM            : 10 Minutos de Musica Relaxante.
+    ICRD            : 20160810
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc57.107.100 pcm_s16le
+size=   41984kB time=00:03:43.94 bitrate=1535.8kbits/s speed= 448x    size=   80896kB time=00:07:12.57 bitrate=1532.0kbits/s speed= 433x    size=  111360kB time=00:09:53.97 bitrate=1535.9kbits/s speed= 396x    size=  112578kB time=00:10:00.41 bitrate=1536.0kbits/s speed= 395x    
+video:0kB audio:112578kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000193%
+
+ Performance counter stats for 'ffmpeg -i 15.3MB.mp3 15.3MB.wav':
+
+          1.572,68 msec task-clock                #    0,999 CPUs utilized          
+                87      context-switches          #    0,055 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+             3.532      page-faults               #    0,002 M/sec                  
+     4.862.444.095      cycles                    #    3,092 GHz                    
+    11.098.086.019      instructions              #    2,28  insn per cycle         
+       658.926.064      branches                  #  418,984 M/sec                  
+        13.459.645      branch-misses             #    2,04% of all branches        
+
+       1,574337182 seconds time elapsed
+
+       1,484547000 seconds user
+       0,088032000 seconds sys
+
+
