@@ -3,6 +3,7 @@
 *.mp4
 *.avi
 *.wav
+*.zip
 
 #ignorando executavel do c++
 *.out

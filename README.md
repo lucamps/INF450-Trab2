@@ -11,10 +11,10 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 * Etapa 1 - OK
 * Etapa 2 - Em andamento
   * Rodando os programas com perf:
-    * Compactação (txt com zip) -------------------------------------------- OK
-    * Compilador
-    * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) - OK
-    * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) - OK
-    * Programação Inteira ou Otimização com A* ----------------------------- Ok
-    * Ordenação (ordenando os arquivos de texto com sort do c++) ----------- Ok
+    * Compactação (txt com zip) ---------------------------------------------- OK
+    * Compilador (g++ com o mesmo programa utilizado na programação inteira) - OK
+    * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) --- OK
+    * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) --- OK
+    * Programação Inteira (problema da mochila com branch and bound) --------- OK
+    * Ordenação (ordenando os arquivos de texto com sort do c++) ------------- OK
 * Etapa 3 - Em andamento
