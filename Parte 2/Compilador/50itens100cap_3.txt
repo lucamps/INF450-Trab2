@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'g++ mochila.cpp':
+
+          1.156,13 msec task-clock                #    0,999 CPUs utilized          
+                23      context-switches          #    0,020 K/sec                  
+                 2      cpu-migrations            #    0,002 K/sec                  
+            47.604      page-faults               #    0,041 M/sec                  
+     3.569.563.981      cycles                    #    3,088 GHz                    
+     3.380.011.230      instructions              #    0,95  insn per cycle         
+       761.499.193      branches                  #  658,664 M/sec                  
+        16.215.085      branch-misses             #    2,13% of all branches        
+
+       1,157220085 seconds time elapsed
+
+       1,062938000 seconds user
+       0,093624000 seconds sys
+
+
