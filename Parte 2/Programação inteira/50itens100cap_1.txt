@@ -1,0 +1,19 @@
+Maximum possible profit = 516
+
+ Performance counter stats for './a.out':
+
+              1,19 msec task-clock                #    0,742 CPUs utilized          
+                 0      context-switches          #    0,000 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               113      page-faults               #    0,095 M/sec                  
+         3.678.174      cycles                    #    3,083 GHz                    
+         3.260.622      instructions              #    0,89  insn per cycle         
+           553.019      branches                  #  463,490 M/sec                  
+            16.709      branch-misses             #    3,02% of all branches        
+
+       0,001607960 seconds time elapsed
+
+       0,001485000 seconds user
+       0,000000000 seconds sys
+
+
