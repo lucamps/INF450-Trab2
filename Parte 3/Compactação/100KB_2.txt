@@ -1,0 +1,15 @@
+  adding: 100KB.txt (deflated 73%)
+
+ Performance counter stats for 'zip 100KB.zip 100KB.txt':
+
+         4.350.930      L1-dcache-loads                                             
+           959.504      L1-dcache-load-misses     #   22,05% of all L1-dcache hits  
+            78.510      LLC-loads                                                   
+             4.659      LLC-loads-misses          #    5,93% of all LL-cache hits   
+
+       0,007246881 seconds time elapsed
+
+       0,003634000 seconds user
+       0,003634000 seconds sys
+
+

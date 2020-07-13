@@ -1,0 +1,15 @@
+  adding: 1MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 1MB.zip 1MB.txt':
+
+        42.336.666      L1-dcache-loads                                             
+        11.166.951      L1-dcache-load-misses     #   26,38% of all L1-dcache hits  
+           299.478      LLC-loads                                                   
+            71.865      LLC-loads-misses          #   24,00% of all LL-cache hits   
+
+       0,069256229 seconds time elapsed
+
+       0,068509000 seconds user
+       0,000000000 seconds sys
+
+

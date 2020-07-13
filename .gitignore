@@ -1,0 +1,9 @@
+#ignorando arquivos grandes
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.zip
+
+#ignorando executaveis c++
+*.out

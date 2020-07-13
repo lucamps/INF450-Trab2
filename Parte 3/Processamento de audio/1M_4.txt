@@ -1,0 +1,56 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mp3, from '1MB.mp3':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=2ZrWHtvSog4
+    comment         : Test your speakers and headphones for common problems. High quality downloads at https://outlierstudios.bandcamp.com 0:00 Channel Identification (Left vs Rig...
+    description     : Test your speakers and headphones for common problems. High quality downloads at https://outlierstudios.bandcamp.com 0:00 Channel Identification (Left vs Rig...
+    artist          : Outlier Audio
+    title           : 1-Minute Audio Test for Stereo Speakers & Headphones
+    date            : 20160603
+    encoder         : Lavf57.56.101
+  Duration: 00:01:00.07, start: 0.023021, bitrate: 139 kb/s
+    Stream #0:0: Audio: mp3, 48000 Hz, stereo, s16p, 139 kb/s
+    Metadata:
+      encoder         : Lavc57.64
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '1MB.wav':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=2ZrWHtvSog4
+    ICMT            : Test your speakers and headphones for common problems. High quality downloads at https://outlierstudios.bandcamp.com 0:00 Channel Identification (Left vs Rig...
+    description     : Test your speakers and headphones for common problems. High quality downloads at https://outlierstudios.bandcamp.com 0:00 Channel Identification (Left vs Rig...
+    IART            : Outlier Audio
+    INAM            : 1-Minute Audio Test for Stereo Speakers & Headphones
+    ICRD            : 20160603
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc57.107.100 pcm_s16le
+size=   11258kB time=00:01:00.04 bitrate=1536.0kbits/s speed= 391x    
+video:0kB audio:11258kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.003036%
+
+ Performance counter stats for 'ffmpeg -i 1MB.mp3 1MB.wav':
+
+       355.217.388      L1-dcache-loads                                             
+        15.422.772      L1-dcache-load-misses     #    4,34% of all L1-dcache hits  
+         2.691.769      LLC-loads                                                   
+           258.144      LLC-loads-misses          #    9,59% of all LL-cache hits   
+
+       0,199366663 seconds time elapsed
+
+       0,175089000 seconds user
+       0,023712000 seconds sys
+
+

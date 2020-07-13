@@ -1,0 +1,65 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '5.3MB.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    creation_time   : 2020-03-08T11:42:07.000000Z
+  Duration: 00:00:26.40, start: 0.000000, bitrate: 1607 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 1478 kb/s, 25 fps, 25 tbr, 90k tbn, 50 tbc (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mpeg4 (native))
+  Stream #0:1 -> #0:1 (aac (native) -> mp3 (libmp3lame))
+Press [q] to stop, [?] for help
+Output #0, avi, to '5.3MB.avi':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: isommp42
+    ISFT            : Lavf57.83.100
+    Stream #0:0(und): Video: mpeg4 (FMP4 / 0x34504D46), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 25 fps, 25 tbn, 25 tbc (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+      encoder         : Lavc57.107.100 mpeg4
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: -1
+    Stream #0:1(und): Audio: mp3 (libmp3lame) (U[0][0][0] / 0x0055), 44100 Hz, stereo, fltp (default)
+    Metadata:
+      creation_time   : 2020-03-08T11:42:07.000000Z
+      handler_name    : ISO Media file produced by Google Inc. Created on: 03/08/2020.
+      encoder         : Lavc57.107.100 libmp3lame
+frame=   19 fps=0.0 q=31.0 size=      10kB time=00:00:00.76 bitrate= 105.2kbits/s speed=1.47x    frame=   31 fps= 30 q=31.0 size=      10kB time=00:00:01.28 bitrate=  62.5kbits/s speed=1.24x    frame=   48 fps= 31 q=31.0 size=     266kB time=00:00:01.92 bitrate=1133.9kbits/s speed=1.25x    frame=   67 fps= 33 q=31.0 size=     266kB time=00:00:02.71 bitrate= 801.4kbits/s speed=1.33x    frame=   94 fps= 37 q=31.0 size=     266kB time=00:00:03.78 bitrate= 574.8kbits/s speed=1.49x    frame=  122 fps= 40 q=31.0 size=     522kB time=00:00:04.88 bitrate= 875.9kbits/s speed= 1.6x    frame=  149 fps= 42 q=31.0 size=     522kB time=00:00:05.96 bitrate= 717.2kbits/s speed=1.68x    frame=  175 fps= 43 q=31.0 size=     522kB time=00:00:07.00 bitrate= 610.6kbits/s speed=1.72x    frame=  199 fps= 44 q=31.0 size=     778kB time=00:00:07.96 bitrate= 800.4kbits/s speed=1.75x    frame=  224 fps= 44 q=31.0 size=     778kB time=00:00:08.96 bitrate= 711.1kbits/s speed=1.77x    frame=  254 fps= 46 q=31.0 size=    1034kB time=00:00:10.16 bitrate= 833.5kbits/s speed=1.82x    frame=  280 fps= 46 q=31.0 size=    1034kB time=00:00:11.20 bitrate= 756.1kbits/s speed=1.84x    frame=  304 fps= 46 q=31.0 size=    1034kB time=00:00:12.16 bitrate= 696.4kbits/s speed=1.85x    frame=  337 fps= 48 q=24.8 size=    1290kB time=00:00:13.48 bitrate= 783.8kbits/s speed= 1.9x    frame=  361 fps= 48 q=24.8 size=    1290kB time=00:00:14.44 bitrate= 731.7kbits/s speed= 1.9x    frame=  387 fps= 48 q=31.0 size=    1290kB time=00:00:15.48 bitrate= 682.5kbits/s speed=1.92x    frame=  413 fps= 48 q=31.0 size=    1546kB time=00:00:16.52 bitrate= 766.5kbits/s speed=1.92x    frame=  441 fps= 48 q=31.0 size=    1546kB time=00:00:17.64 bitrate= 717.9kbits/s speed=1.94x    frame=  466 fps= 49 q=31.0 size=    1546kB time=00:00:18.64 bitrate= 679.3kbits/s speed=1.94x    frame=  489 fps= 48 q=31.0 size=    1802kB time=00:00:19.56 bitrate= 754.6kbits/s speed=1.94x    frame=  511 fps= 48 q=24.8 size=    1802kB time=00:00:20.44 bitrate= 722.1kbits/s speed=1.93x    frame=  535 fps= 48 q=24.8 size=    2058kB time=00:00:21.40 bitrate= 787.7kbits/s speed=1.93x    frame=  559 fps= 48 q=31.0 size=    2058kB time=00:00:22.36 bitrate= 753.9kbits/s speed=1.93x    frame=  586 fps= 48 q=31.0 size=    2058kB time=00:00:23.44 bitrate= 719.2kbits/s speed=1.93x    frame=  612 fps= 49 q=31.0 size=    2314kB time=00:00:24.48 bitrate= 774.3kbits/s speed=1.94x    frame=  640 fps= 49 q=31.0 size=    2314kB time=00:00:25.60 bitrate= 740.4kbits/s speed=1.95x    frame=  660 fps= 48 q=31.0 Lsize=    2536kB time=00:00:26.40 bitrate= 786.6kbits/s speed=1.94x    
+video:2073kB audio:413kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.985248%
+
+ Performance counter stats for 'ffmpeg -i 5.3MB.mp4 5.3MB.avi':
+
+     8.191.444.197      L1-dcache-loads                                             
+       313.116.884      L1-dcache-load-misses     #    3,82% of all L1-dcache hits  
+        43.101.434      LLC-loads                                                   
+        20.279.712      LLC-loads-misses          #   47,05% of all LL-cache hits   
+
+      13,735102031 seconds time elapsed
+
+      17,628308000 seconds user
+       0,378272000 seconds sys
+
+

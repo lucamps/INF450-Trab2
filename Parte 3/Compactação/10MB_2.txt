@@ -1,0 +1,15 @@
+  adding: 10MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 10MB.zip 10MB.txt':
+
+       423.025.123      L1-dcache-loads                                             
+       114.223.132      L1-dcache-load-misses     #   27,00% of all L1-dcache hits  
+         4.709.013      LLC-loads                                                   
+           907.408      LLC-loads-misses          #   19,27% of all LL-cache hits   
+
+       0,735012012 seconds time elapsed
+
+       0,723383000 seconds user
+       0,007993000 seconds sys
+
+

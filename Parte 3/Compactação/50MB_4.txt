@@ -1,0 +1,15 @@
+  adding: 50MB.txt (deflated 74%)
+
+ Performance counter stats for 'zip 50MB.zip 50MB.txt':
+
+     2.117.408.340      L1-dcache-loads                                             
+       569.910.200      L1-dcache-load-misses     #   26,92% of all L1-dcache hits  
+        34.433.251      LLC-loads                                                   
+         1.347.640      LLC-loads-misses          #    3,91% of all LL-cache hits   
+
+       3,849055044 seconds time elapsed
+
+       3,786369000 seconds user
+       0,059974000 seconds sys
+
+

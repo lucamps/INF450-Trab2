@@ -1,0 +1,62 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mp3, from '50.4MB.mp3':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    purl            : https://www.youtube.com/watch?v=drsiP5hFEFY
+    comment         : 30 minutos de SOM DE CHUVA e trovoadas, "msica" para dormir e relaxar. Quer meditar? Som de chuva para sua meditao.
+    description     : 30 minutos de SOM DE CHUVA e trovoadas, "msica" para dormir e relaxar. Quer meditar? Som de chuva para sua meditao.
+    artist          : Cassio Toledo
+    title           : Som de Chuva - "Msica" Para Dormir e Relaxar
+    date            : 20120815
+    encoder         : Lavf57.56.101
+  Duration: 00:30:08.12, start: 0.025057, bitrate: 223 kb/s
+    Stream #0:0: Audio: mp3, 44100 Hz, stereo, s16p, 223 kb/s
+    Metadata:
+      encoder         : Lavc57.64
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '50.4MB.wav':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    purl            : https://www.youtube.com/watch?v=drsiP5hFEFY
+    ICMT            : 30 minutos de SOM DE CHUVA e trovoadas, "msica" para dormir e relaxar. Quer meditar? Som de chuva para sua meditao.
+    description     : 30 minutos de SOM DE CHUVA e trovoadas, "msica" para dormir e relaxar. Quer meditar? Som de chuva para sua meditao.
+    IART            : Cassio Toledo
+    INAM            : Som de Chuva - "Msica" Para Dormir e Relaxar
+    ICRD            : 20120815
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc57.107.100 pcm_s16le
+size=    3072kB time=00:00:18.23 bitrate=1380.2kbits/s speed=36.5x    size=    5632kB time=00:00:33.38 bitrate=1382.0kbits/s speed=33.3x    size=    8192kB time=00:00:48.77 bitrate=1376.0kbits/s speed=32.5x    size=   12032kB time=00:01:09.87 bitrate=1410.6kbits/s speed=34.9x    size=   15360kB time=00:01:30.54 bitrate=1389.8kbits/s speed=36.2x    size=   19200kB time=00:01:51.67 bitrate=1408.5kbits/s speed=37.2x    size=   22784kB time=00:02:13.04 bitrate=1402.9kbits/s speed=  38x    size=   26368kB time=00:02:34.48 bitrate=1398.2kbits/s speed=38.6x    size=   30208kB time=00:02:56.37 bitrate=1403.0kbits/s speed=39.2x    size=   34048kB time=00:03:18.32 bitrate=1406.4kbits/s speed=39.6x    size=   37632kB time=00:03:39.22 bitrate=1406.3kbits/s speed=39.8x    size=   41472kB time=00:04:00.92 bitrate=1410.1kbits/s speed=40.1x    size=   45056kB time=00:04:22.89 bitrate=1404.0kbits/s speed=40.4x    size=   48896kB time=00:04:45.28 bitrate=1404.1kbits/s speed=40.7x    size=   52736kB time=00:05:07.27 bitrate=1405.9kbits/s speed=40.9x    size=   56576kB time=00:05:29.01 bitrate=1408.7kbits/s speed=41.1x    size=   66304kB time=00:06:25.90 bitrate=1407.5kbits/s speed=45.4x    size=   93952kB time=00:09:06.53 bitrate=1408.2kbits/s speed=60.7x    size=  121856kB time=00:11:47.50 bitrate=1410.9kbits/s speed=74.4x    size=  150016kB time=00:14:30.87 bitrate=1411.2kbits/s speed=  87x    size=  177920kB time=00:17:13.82 bitrate=1409.8kbits/s speed=98.4x    size=  206336kB time=00:19:57.81 bitrate=1411.2kbits/s speed= 109x    size=  234496kB time=00:22:42.65 bitrate=1409.7kbits/s speed= 118x    size=  262912kB time=00:25:26.77 bitrate=1410.7kbits/s speed= 127x    size=  290560kB time=00:28:07.72 bitrate=1410.3kbits/s speed= 135x    size=  311468kB time=00:30:08.06 bitrate=1411.2kbits/s speed= 140x    
+video:0kB audio:311468kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000093%
+
+ Performance counter stats for 'ffmpeg -i 50.4MB.mp3 50.4MB.wav':
+
+     8.970.142.356      L1-dcache-loads                                             
+       211.583.213      L1-dcache-load-misses     #    2,36% of all L1-dcache hits  
+        30.141.094      LLC-loads                                                   
+         2.214.990      LLC-loads-misses          #    7,35% of all LL-cache hits   
+
+      13,304218679 seconds time elapsed
+
+      12,449632000 seconds user
+       0,851047000 seconds sys
+
+

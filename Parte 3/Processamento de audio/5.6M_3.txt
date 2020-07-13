@@ -1,0 +1,56 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mp3, from '5.6MB.mp3':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=BY_lfVEh_2A
+    comment         :  Dance, Curta, Viralize  Divirta-se  Playlists  TRAP: http://bit.ly/2mv1U0A REMIX: http://bit.ly/2m48FGx DANCE: http://bit.ly/2m2zwmc HOUSE: http:/...
+    description     :  Dance, Curta, Viralize  Divirta-se  Playlists  TRAP: http://bit.ly/2mv1U0A REMIX: http://bit.ly/2m48FGx DANCE: http://bit.ly/2m2zwmc HOUSE: http:/...
+    artist          : SDA - Sem Direitos Autorais
+    title           : Syn Cole - feel good - Music Video - Sem Direitos Autorais [SDA]
+    date            : 20180725
+    encoder         : Lavf57.56.101
+  Duration: 00:03:02.81, start: 0.023021, bitrate: 243 kb/s
+    Stream #0:0: Audio: mp3, 48000 Hz, stereo, s16p, 243 kb/s
+    Metadata:
+      encoder         : Lavc57.64
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '5.6MB.wav':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=BY_lfVEh_2A
+    ICMT            :  Dance, Curta, Viralize  Divirta-se  Playlists  TRAP: http://bit.ly/2mv1U0A REMIX: http://bit.ly/2m48FGx DANCE: http://bit.ly/2m2zwmc HOUSE: http:/...
+    description     :  Dance, Curta, Viralize  Divirta-se  Playlists  TRAP: http://bit.ly/2mv1U0A REMIX: http://bit.ly/2m48FGx DANCE: http://bit.ly/2m2zwmc HOUSE: http:/...
+    IART            : SDA - Sem Direitos Autorais
+    INAM            : Syn Cole - feel good - Music Video - Sem Direitos Autorais [SDA]
+    ICRD            : 20180725
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc57.107.100 pcm_s16le
+size=   34272kB time=00:03:02.78 bitrate=1536.0kbits/s speed= 393x    
+video:0kB audio:34272kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.001043%
+
+ Performance counter stats for 'ffmpeg -i 5.6MB.mp3 5.6MB.wav':
+
+     1.020.725.854      L1-dcache-loads                                             
+        30.075.888      L1-dcache-load-misses     #    2,95% of all L1-dcache hits  
+         4.357.880      LLC-loads                                                   
+           336.489      LLC-loads-misses          #    7,72% of all LL-cache hits   
+
+       0,511363680 seconds time elapsed
+
+       0,475313000 seconds user
+       0,034223000 seconds sys
+
+

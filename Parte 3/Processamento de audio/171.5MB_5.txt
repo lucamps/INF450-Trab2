@@ -1,0 +1,56 @@
+ffmpeg version 3.4.6-0ubuntu0.18.04.1 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libopencv --enable-libx264 --enable-shared
+  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Input #0, mp3, from '171.5MB.mp3':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=P3sVQc5v_1M
+    comment         : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    description     : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    artist          : Annynha FF
+    title           : MELHORES MSICAS SEM DIREITOS AUTORAIS NO COPYRIGHT PARA RODAR EM SUAS LIVES E SEUS VDEOS
+    date            : 20200112
+    encoder         : Lavf57.56.101
+  Duration: 01:32:56.93, start: 0.023021, bitrate: 246 kb/s
+    Stream #0:0: Audio: mp3, 48000 Hz, stereo, s16p, 246 kb/s
+    Metadata:
+      encoder         : Lavc57.64
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '171.5MB.wav':
+  Metadata:
+    purl            : https://www.youtube.com/watch?v=P3sVQc5v_1M
+    ICMT            : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    description     : NEFFEX Sem Direitos autorais 100% NO COPYRIGHT #copyrightfreemusic #gamingmusic #RoyaltyFreeMusic 01 - NEFFEX -Cold 02 -NEFFEX - Rumors 03 - NEFFEX - Chance...
+    IART            : Annynha FF
+    INAM            : MELHORES MSICAS SEM DIREITOS AUTORAIS NO COPYRIGHT PARA RODAR EM SUAS LIVES E SEUS VDEOS
+    ICRD            : 20200112
+    ISFT            : Lavf57.83.100
+    Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+    Metadata:
+      encoder         : Lavc57.107.100 pcm_s16le
+size=   27136kB time=00:02:24.79 bitrate=1535.3kbits/s speed= 290x    size=   51712kB time=00:04:35.83 bitrate=1535.8kbits/s speed= 276x    size=   73472kB time=00:06:32.23 bitrate=1534.5kbits/s speed= 261x    size=   94720kB time=00:08:25.20 bitrate=1535.9kbits/s speed= 253x    size=  121600kB time=00:10:49.15 bitrate=1534.5kbits/s speed= 260x    size=  148736kB time=00:13:14.01 bitrate=1534.5kbits/s speed= 265x    size=  176128kB time=00:15:39.38 bitrate=1535.9kbits/s speed= 268x    size=  203520kB time=00:18:05.47 bitrate=1536.0kbits/s speed= 271x    size=  230912kB time=00:20:31.77 bitrate=1535.7kbits/s speed= 274x    size=  258304kB time=00:22:58.08 bitrate=1535.5kbits/s speed= 276x    size=  285952kB time=00:25:25.08 bitrate=1536.0kbits/s speed= 277x    size=  317696kB time=00:28:15.14 bitrate=1535.3kbits/s speed= 282x    size=  356096kB time=00:31:39.88 bitrate=1535.4kbits/s speed= 292x    size=  393728kB time=00:35:00.43 bitrate=1535.6kbits/s speed= 300x    size=  430080kB time=00:38:14.83 bitrate=1535.3kbits/s speed= 306x    size=  469248kB time=00:41:42.69 bitrate=1536.0kbits/s speed= 313x    size=  507136kB time=00:45:05.88 bitrate=1535.3kbits/s speed= 318x    size=  546048kB time=00:48:33.00 bitrate=1535.6kbits/s speed= 324x    size=  583424kB time=00:51:51.72 bitrate=1535.9kbits/s speed= 328x    size=  611072kB time=00:54:19.63 bitrate=1535.7kbits/s speed= 326x    size=  648704kB time=00:57:39.76 bitrate=1536.0kbits/s speed= 329x    size=  685568kB time=01:00:56.71 bitrate=1535.9kbits/s speed= 332x    size=  723456kB time=01:04:18.98 bitrate=1535.8kbits/s speed= 336x    size=  762624kB time=01:07:47.35 bitrate=1536.0kbits/s speed= 339x    size=  801024kB time=01:11:12.38 bitrate=1535.9kbits/s speed= 342x    size=  831744kB time=01:13:56.23 bitrate=1535.9kbits/s speed= 341x    size=  865536kB time=01:16:57.24 bitrate=1535.7kbits/s speed= 342x    size=  891136kB time=01:19:12.76 bitrate=1536.0kbits/s speed= 339x    size=  916480kB time=01:21:28.99 bitrate=1535.7kbits/s speed= 337x    size=  928512kB time=01:22:33.21 bitrate=1535.6kbits/s speed= 330x    size=  951808kB time=01:24:36.74 bitrate=1535.9kbits/s speed= 327x    size=  986112kB time=01:27:40.00 bitrate=1535.8kbits/s speed= 329x    size= 1024000kB time=01:31:01.36 bitrate=1536.0kbits/s speed= 331x    size= 1045668kB time=01:32:56.89 bitrate=1536.0kbits/s speed= 329x    
+video:0kB audio:1045668kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000036%
+
+ Performance counter stats for 'ffmpeg -i 171.5MB.mp3 171.5MB.wav':
+
+    29.809.715.628      L1-dcache-loads                                             
+       691.264.927      L1-dcache-load-misses     #    2,32% of all L1-dcache hits  
+        95.549.532      LLC-loads                                                   
+         6.803.446      LLC-loads-misses          #    7,12% of all LL-cache hits   
+
+      16,975031247 seconds time elapsed
+
+      15,672399000 seconds user
+       0,959641000 seconds sys
+
+
