@@ -1,0 +1,15 @@
+Maximum possible profit = 516
+
+ Performance counter stats for './50itens.out':
+
+           947.970      L1-dcache-loads                                             
+            68.331      L1-dcache-load-misses     #    7,21% of all L1-dcache hits  
+            20.039      LLC-loads                                                   
+             7.066      LLC-loads-misses          #   35,26% of all LL-cache hits   
+
+       0,017488693 seconds time elapsed
+
+       0,004372000 seconds user
+       0,013116000 seconds sys
+
+

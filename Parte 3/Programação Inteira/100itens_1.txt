@@ -1,0 +1,15 @@
+Maximum possible profit = 1783
+
+ Performance counter stats for './100itens.out':
+
+         1.451.765      L1-dcache-loads                                             
+            51.056      L1-dcache-load-misses     #    3,52% of all L1-dcache hits  
+            11.975      LLC-loads                                                   
+             3.665      LLC-loads-misses          #   30,61% of all LL-cache hits   
+
+       0,013982798 seconds time elapsed
+
+       0,014333000 seconds user
+       0,000000000 seconds sys
+
+

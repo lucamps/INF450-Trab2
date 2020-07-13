@@ -1,0 +1,15 @@
+Maximum possible profit = 4565
+
+ Performance counter stats for './200itens.out':
+
+         4.018.493      L1-dcache-loads                                             
+            48.150      L1-dcache-load-misses     #    1,20% of all L1-dcache hits  
+             9.461      LLC-loads                                                   
+             3.196      LLC-loads-misses          #   33,78% of all LL-cache hits   
+
+       0,003421699 seconds time elapsed
+
+       0,003467000 seconds user
+       0,000000000 seconds sys
+
+

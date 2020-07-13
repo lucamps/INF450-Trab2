@@ -1,0 +1,15 @@
+Maximum possible profit = 235
+
+ Performance counter stats for './5itens.out':
+
+           781.338      L1-dcache-loads                                             
+            43.171      L1-dcache-load-misses     #    5,53% of all L1-dcache hits  
+             9.123      LLC-loads                                                   
+             3.085      LLC-loads-misses          #   33,82% of all LL-cache hits   
+
+       0,001381866 seconds time elapsed
+
+       0,001400000 seconds user
+       0,000000000 seconds sys
+
+
