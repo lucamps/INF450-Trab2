@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'g++ 1programa.cpp':
+
+       298.586.156      L1-dcache-loads                                             
+        18.587.149      L1-dcache-load-misses     #    6,23% of all L1-dcache hits  
+         6.172.598      LLC-loads                                                   
+         2.462.440      LLC-loads-misses          #   39,89% of all LL-cache hits   
+
+       1,117383904 seconds time elapsed
+
+       0,981941000 seconds user
+       0,135079000 seconds sys
+
+

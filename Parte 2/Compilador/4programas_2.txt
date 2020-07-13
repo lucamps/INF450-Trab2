@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'g++ 4programas.cpp':
+
+          1.384,79 msec task-clock                #    0,989 CPUs utilized          
+               109      context-switches          #    0,079 K/sec                  
+                 3      cpu-migrations            #    0,002 K/sec                  
+            19.719      page-faults               #    0,014 M/sec                  
+     4.281.146.454      cycles                    #    3,092 GHz                    
+     1.123.542.848      instructions              #    0,26  insn per cycle         
+       247.675.902      branches                  #  178,855 M/sec                  
+         6.524.346      branch-misses             #    2,63% of all branches        
+
+       1,400056626 seconds time elapsed
+
+       1,193359000 seconds user
+       0,191490000 seconds sys
+
+

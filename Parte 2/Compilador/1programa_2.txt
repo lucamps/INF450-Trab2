@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'g++ 1programa.cpp':
+
+          1.492,53 msec task-clock                #    0,988 CPUs utilized          
+               141      context-switches          #    0,094 K/sec                  
+                 6      cpu-migrations            #    0,004 K/sec                  
+            19.674      page-faults               #    0,013 M/sec                  
+     4.613.616.790      cycles                    #    3,091 GHz                    
+     1.116.408.285      instructions              #    0,24  insn per cycle         
+       245.973.842      branches                  #  164,804 M/sec                  
+         6.645.057      branch-misses             #    2,70% of all branches        
+
+       1,510038598 seconds time elapsed
+
+       1,305017000 seconds user
+       0,187721000 seconds sys
+
+

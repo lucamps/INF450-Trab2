@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'g++ 2programas.cpp':
+
+            620,95 msec task-clock                #    0,971 CPUs utilized          
+               188      context-switches          #    0,303 K/sec                  
+                 5      cpu-migrations            #    0,008 K/sec                  
+            19.704      page-faults               #    0,032 M/sec                  
+     1.917.547.816      cycles                    #    3,088 GHz                    
+     1.099.255.338      instructions              #    0,57  insn per cycle         
+       243.057.368      branches                  #  391,429 M/sec                  
+         6.712.646      branch-misses             #    2,76% of all branches        
+
+       0,639464357 seconds time elapsed
+
+       0,511385000 seconds user
+       0,111725000 seconds sys
+
+

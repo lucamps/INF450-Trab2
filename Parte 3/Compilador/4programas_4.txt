@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'g++ 4programas.cpp':
+
+       297.712.799      L1-dcache-loads                                             
+        18.791.897      L1-dcache-load-misses     #    6,31% of all L1-dcache hits  
+         6.530.359      LLC-loads                                                   
+         2.623.580      LLC-loads-misses          #   40,18% of all LL-cache hits   
+
+       0,498348205 seconds time elapsed
+
+       0,363926000 seconds user
+       0,127732000 seconds sys
+
+

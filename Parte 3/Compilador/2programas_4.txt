@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'g++ 2programas.cpp':
+
+       301.023.825      L1-dcache-loads                                             
+        19.598.092      L1-dcache-load-misses     #    6,51% of all L1-dcache hits  
+         6.798.725      LLC-loads                                                   
+         2.860.231      LLC-loads-misses          #   42,07% of all LL-cache hits   
+
+       1,130909516 seconds time elapsed
+
+       0,916501000 seconds user
+       0,209229000 seconds sys
+
+

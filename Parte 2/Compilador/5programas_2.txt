@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'g++ 5programas.cpp':
+
+            653,07 msec task-clock                #    0,973 CPUs utilized          
+               168      context-switches          #    0,257 K/sec                  
+                 2      cpu-migrations            #    0,003 K/sec                  
+            21.077      page-faults               #    0,032 M/sec                  
+     2.013.201.658      cycles                    #    3,083 GHz                    
+     1.325.860.933      instructions              #    0,66  insn per cycle         
+       295.811.799      branches                  #  452,957 M/sec                  
+         8.383.272      branch-misses             #    2,83% of all branches        
+
+       0,671417865 seconds time elapsed
+
+       0,587561000 seconds user
+       0,065985000 seconds sys
+
+

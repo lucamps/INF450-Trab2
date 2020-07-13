@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'g++ 5programas.cpp':
+
+       354.787.170      L1-dcache-loads                                             
+        20.262.655      L1-dcache-load-misses     #    5,71% of all L1-dcache hits  
+         6.457.598      LLC-loads                                                   
+         1.982.801      LLC-loads-misses          #   30,70% of all LL-cache hits   
+
+       0,366041651 seconds time elapsed
+
+       0,341068000 seconds user
+       0,024915000 seconds sys
+
+

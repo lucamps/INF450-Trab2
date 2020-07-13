@@ -1,0 +1,14 @@
+
+ Performance counter stats for 'g++ 3programas.cpp':
+
+       301.140.285      L1-dcache-loads                                             
+        19.661.057      L1-dcache-load-misses     #    6,53% of all L1-dcache hits  
+         6.804.222      LLC-loads                                                   
+         2.846.281      LLC-loads-misses          #   41,83% of all LL-cache hits   
+
+       1,102686381 seconds time elapsed
+
+       0,939996000 seconds user
+       0,157034000 seconds sys
+
+

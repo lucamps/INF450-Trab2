@@ -1,0 +1,18 @@
+
+ Performance counter stats for 'g++ 3programas.cpp':
+
+            392,88 msec task-clock                #    0,987 CPUs utilized          
+                85      context-switches          #    0,216 K/sec                  
+                 2      cpu-migrations            #    0,005 K/sec                  
+            19.742      page-faults               #    0,050 M/sec                  
+     1.214.125.381      cycles                    #    3,090 GHz                    
+     1.102.532.466      instructions              #    0,91  insn per cycle         
+       243.867.622      branches                  #  620,712 M/sec                  
+         6.299.800      branch-misses             #    2,58% of all branches        
+
+       0,397994680 seconds time elapsed
+
+       0,349622000 seconds user
+       0,043658000 seconds sys
+
+

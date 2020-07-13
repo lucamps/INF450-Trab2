@@ -12,7 +12,7 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 * Etapa 2 - Em andamento
   * Rodando os programas com perf:
     * Compactação (txt com zip) ---------------------------------------------- OK
-    * Compilador () 
+    * Compilador (g++ com 5 programas trabalhando com vetores) --------------- OK
     * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) --- OK
     * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) --- OK
     * Programação Inteira (problema da mochila com branch and bound) --------- OK
@@ -20,7 +20,7 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 * Etapa 3 - Em andamento
   * Rodando os programas com perf para cache L1 e L3:
     * Compactação (txt com zip) ---------------------------------------------- OK
-    * Compilador () 
+    * Compilador (g++ com 5 programas trabalhando com vetores) --------------- OK
     * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) --- OK
     * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) --- OK
     * Programação Inteira (problema da mochila com branch and bound)  -------- OK
