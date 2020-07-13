@@ -24,4 +24,4 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
     * Processamento de audio (conversão mp3 para wav com o comando ffmpeg) --- OK
     * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) --- OK
     * Programação Inteira (problema da mochila com branch and bound) 
-    * Ordenação (ordenando os arquivos de texto com sort do c++) 
+    * Ordenação (ordenando os arquivos de texto com sort do c++) ------------- OK

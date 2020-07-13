@@ -1,0 +1,14 @@
+
+ Performance counter stats for './a.out':
+
+        73.330.450      L1-dcache-loads                                             
+           101.577      L1-dcache-load-misses     #    0,14% of all L1-dcache hits  
+            28.913      LLC-loads                                                   
+            15.418      LLC-loads-misses          #   53,33% of all LL-cache hits   
+
+       0,038836719 seconds time elapsed
+
+       0,031413000 seconds user
+       0,006980000 seconds sys
+
+
