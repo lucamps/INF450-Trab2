@@ -10,7 +10,7 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
 
 ### Status:
 * Etapa 1 - OK
-* Etapa 2 - Em andamento
+* Etapa 2 - Ok
   * Rodando os programas com perf:
     * Compactação (txt com zip) ---------------------------------------------- OK
     * Compilador (g++ com 5 programas trabalhando com vetores) --------------- OK
@@ -18,7 +18,8 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
     * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) --- OK
     * Programação Inteira (problema da mochila com branch and bound) --------- OK
     * Ordenação (ordenando os arquivos de texto com sort do c++) ------------- OK
-* Etapa 3 - Em andamento
+   * Criação de graficos e tabelas ------- OK
+* Etapa 3 - Ok
   * Rodando os programas com perf para cache L1 e L3:
     * Compactação (txt com zip) ---------------------------------------------- OK
     * Compilador (g++ com 5 programas trabalhando com vetores) --------------- OK
@@ -26,3 +27,4 @@ Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
     * Processamento de vídeo (conversão mp4 para avi com o comando ffmpeg) --- OK
     * Programação Inteira (problema da mochila com branch and bound)  -------- OK
     * Ordenação (ordenando os arquivos de texto com sort do c++) ------------- OK
+   * Criação de tabelas ------- OK
