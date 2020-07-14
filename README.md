@@ -1,5 +1,9 @@
 # INF450-Trab2
 Segundo trabalho da disciplina de Arquitetura de Computadores - UFV
+* Lucas Campos - 92867
+* Matheus Lima - 95684
+* Álysson Cruz - 95685
+
 
 ## Links dos documentos
 * [Etapa 1](https://docs.google.com/presentation/d/1Vz73E6QZo4eGZLj0EVr541p2Wpae-xaPze_8G9zObj4/edit?usp=sharing)
